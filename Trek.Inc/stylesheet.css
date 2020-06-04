@@ -1,0 +1,230 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url("banner-2.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.header .navbar-toggle {
+    border: 0;
+    right: -210px;
+    top: 2px;
+}
+
+.header .navbar-brand>img {
+    margin-top: -10px;
+}
+
+.header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #F04C26;
+}
+
+.header .navbar-default .navbar-toggle:focus,
+.header .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.header {
+    background-image: url('../images/banner.jpg');
+    height: 645px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .navbar-default {
+    background-color: transparent;
+    border: 0;
+    padding-top: 15px;
+    max-width: 900px;
+}
+
+.header .navbar-default .navbar-nav>li>a {
+    color: #414141;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header .navbar-default .navbar-nav>li>a:hover {
+    color: #f04c26;
+}
+.header .banner {
+    cursor: grab;
+}
+
+.header .banner .banner-content h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Chelsea Market', cursive;
+    margin-top: 170px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.header .banner .banner-content h1 span {
+    color: #f04c26;
+}
+
+.header .banner .banner-content p {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.header .banner .banner-content .owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 210px;
+    background: url("../images/arrow-left.png") repeat !important;
+    font-size: 0 !important;
+    height: 28px;
+    width: 17px;
+    content: "";
+}
+
+.header .banner .banner-content .owl-next {
+    background: url("../images/arrow-right.png") repeat !important;
+    content: "";
+    font-size: 0 !important;
+    height: 28px;
+    position: absolute;
+    right: -30px;
+    top: 210px;
+    width: 17px;
+}
+
+.header .banner .banner-content .owl-theme .owl-dots {
+    display: none;
+}
+#header {
+	height: auto;
+	background-size: 100%;
+	background-color: rgba(240, 76, 37, 0.1);
+	background-image: url('../images/pattern-xv.png');
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.registrationbox
+{
+	width: 450px;
+	height: 600px;
+	background: rgba(0,0,0,.5);
+	color: white;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box; 
+	padding :10px 70px;
+	border: 2px solid #ccc;
+	font-weight:600;
+}
+.user
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-px);
+	left: calc(100% - px);
+}
+
+.registrationbox h1
+{
+	margin: 0;
+	padding: 15 0 20px;
+	font-size: 30px;
+	text-align: center;
+	color: black ;
+
+}
+
+.registrationbox label
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	
+
+}
+
+.registrationbox input
+{
+	width: 50%;
+	margin-bottom:5px;
+	background: transparent;
+	color: white;
+}
+
+.registrationbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 0.5px solid white;
+	background: transparent;
+	outline: none;
+	height:30px;
+	font-size: 15px;
+}
+
+.registrationbox input[type="mobile number"]
+{
+	border: none;
+	border-bottom: 0.5px solid white;
+	background: transparent;
+	margin-bottom: 15px;
+	outline: none;
+	height:30px;
+	font-size: 15px;
+}
+.DOB
+{
+	width: 100%;
+	padding:15 0 0px;
+	color:white;
+}
+
+.DOB select[name="DOBmonth"],select[name="DOBday"],select[name="DOBYear"]
+{
+	background:transparent;
+	color: gray;
+	
+}
+.registrationbox input[type="radio"]
+{
+	width: 20px;
+	margin-bottom: 10px;
+	padding: 15 0 0px;
+
+	
+}
+.registrationbox input[type="submit"]
+{
+	
+	border:none;
+	outline:none;
+	height:30px;
+	background: rgba(0,0,0,.5);
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border-radius:90px;
+	margin-left:80px;
+	
+}
+
+.registrationbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background: red;
+	color: black;
+	
+}
+.about-image:hover{
+ transform: scale(1.1);
+}
